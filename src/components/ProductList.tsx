@@ -1,6 +1,6 @@
 // src/components/ProductList.tsx
 import React from 'react';
-import { Product } from '../types/Product';
+import { Product } from '../types/product';
 
 interface Props {
   products: Product[];
