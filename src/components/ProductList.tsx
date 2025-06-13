@@ -1,9 +1,9 @@
 // src/components/ProductList.tsx
 import React from 'react';
-import { Product } from '../types/product';
+import { product } from '../types/product';
 
 interface Props {
-  products: Product[];
+  products: product[];
 }
 
 const ProductList: React.FC<Props> = ({ products }) => {

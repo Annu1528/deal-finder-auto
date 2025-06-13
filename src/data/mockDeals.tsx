@@ -1,5 +1,6 @@
+import type { Deal } from '@/types/deal';
 
-export const mockDeals = [
+export const mockDeals: Deal[] = [
   {
     id: '1',
     title: 'Samsung Galaxy Buds2 Pro Bluetooth Earbuds with Noise Cancelling',
